@@ -54,10 +54,15 @@ public class _03_VanGogh extends PApplet {
     /*
      * Write your code below
      */
+    PImage[] image;
     Brush brush;
     
     void initializePaintings() {
-        
+        image = new PImage[4];
+        image[0] = loadImage("starryNight.jpg");
+        image[1] = loadImage("strawHatPortrait.jpg");
+        image[2] = loadImage("wheatField.jpg");
+        image[3] = loadImage("painterOnRoad.jpg");
     }
     
     void selectNextPainting() {

@@ -44,6 +44,7 @@ while (racing) {
 		if(robotlist[i].getY() <= 0) {
 			racing = false;
 			System.out.println("Winner!");
+			System.out.println("Suddenly a cake and balloons appear with other robots cheering");
 		}
 	}
 }
